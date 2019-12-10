@@ -21,20 +21,20 @@
 
 ## 使用
 
-* 开始
+* 1. 开始
 	* [环境](#环境)
 	* [开始](#开始)
 	* [撰写博文](#撰写博文)
-* 组件
+* 2. 组件
 	* [侧边栏](#侧边栏)
 	* [迷你关于我](#mini-about-me)
 	* [推荐标签](#featured-tags)
 	* [好友链接](#friends)
 	* [HTML5 演示文档布局](#keynote-layout)
-* 评论与 Google/Baidu Analytics
+* 3. 评论与 Google/Baidu Analytics
 	* [评论](#comment)
 	* [网站分析](#analytics) 
-* 高级部分
+* 4. 高级部分
 	* [自定义](#customization)
 	* [标题底图](#header-image)
 	* [搜索展示标题-头文件](#seo-title)
@@ -54,11 +54,11 @@
 ```
 # Site settings
 title: BY Blog                    # 你的博客网站标题
-SEOTitle: 柏荧的博客 | BY Blog		# SEO 标题
+SEOTitle: zgf的博客 		# SEO 标题
 description: "Hey"	   	   # 随便说点，描述一下
 
 # SNS settings      
-github_username: qiubaiying     # 你的github账号
+github_username: passengerZ     # 你的github账号
 jianshu_username: e71990ada2fd  # 你的简书ID。
 
 # Build settings
@@ -76,15 +76,15 @@ yaml 头文件长这样:
 ```
 ---
 layout:     post
-title:      定时器 你真的会使用吗？
+title:      秒表 你真的会使用吗？
 subtitle:   iOS定时器详解
 date:       2016-12-13
-author:     BY
+author:     ZGF
 header-img: img/post-bg-ios9-web.jpg
 catalog: 	 true
 tags:
     - iOS
-    - 定时器
+    - 秒表
 ---
 
 ```
@@ -99,7 +99,7 @@ tags:
 ```
 # Sidebar settings
 sidebar: true  #添加侧边栏
-sidebar-about-description: "简单的描述一下你自己"
+sidebar-about-description: "简单的描述你自己"
 sidebar-avatar: /img/avatar-by.jpg     #你的大头贴，请使用绝对地址.注意：名字区分大小写！后缀名也是
 ```
 
